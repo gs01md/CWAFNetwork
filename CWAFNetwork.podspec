@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AFNetwork'
-  s.version          = '0.1.0'
+  s.name             = 'CWAFNetwork'
+  s.version          = '0.2.0'
   s.summary          = 'Simple request manager about AFNetworking'
 
 # This description is used to generate tags and improve search results.
@@ -21,23 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lingyfh/AFNetwork'
+  s.homepage         = 'https://github.com/gs01md/CWAFNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lingyfh' => 'LingYFH@gmail.com' }
-  s.source           = { :git => 'https://github.com/lingyfh/AFNetwork.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gs01md/CWAFNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.public_header_files = 'AFNetwork/*.h', 'AFNetwork/**/*.h'
-  s.source_files = 'AFNetwork/Classes/**/*'
+  s.public_header_files = 'CWAFNetwork/*.h', 'CWAFNetwork/**/*.h'
+  s.source_files = 'CWAFNetwork/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'AFNetwork' => ['AFNetwork/Assets/*.png']
+  #   'AFNetwork' => ['CWAFNetwork/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 3.0'
+  s.dependency 'AFNetworking'
 end
